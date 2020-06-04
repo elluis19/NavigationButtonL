@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navegation_primero">
+    <fragment
+        android:id="@+id/navegation_primero"
+        android:name="gomez.godina.navigationbuttonbañuelos.PrimerFragment"
+        android:label="Primer Fragment"
+        tools:layout="@layout/fragment_primer" />
+    <fragment
+        android:id="@+id/navigation_segundo"
+        android:name="gomez.godina.navigationbuttonbañuelos.SegundoFragment"
+        android:label="Segundo Fragment"
+        tools:layout="@layout/fragment_segundo" />
+    <fragment
+        android:id="@+id/navigation_tercero"
+        android:name="gomez.godina.navigationbuttonbañuelos.TercerFragment"
+        android:label="Tercer Fragment"
+        tools:layout="@layout/fragment_tercer" />
+</navigation>
